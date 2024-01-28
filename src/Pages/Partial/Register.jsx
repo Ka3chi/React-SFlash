@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { CiUser } from "react-icons/ci";
-import { AiOutlineMail } from "react-icons/ai";
 import { CiLock } from "react-icons/ci";
+import { IoMailOutline } from "react-icons/io5";
 
 
 export const Register = () => {
@@ -17,7 +17,7 @@ export const Register = () => {
               <input type="text" placeholder="  Username" className="bg-transparent focus:outline-none focus:shadow-none flex justify-center items-center " />
             </div>
             <div className="flex justify-center items-center bg-blue1 rounded-[20px] p-[2px] my-[30px] h-[40px]">
-              <AiOutlineMail className="peer h-[30px] w-[45px]" />
+              <IoMailOutline  className="peer h-[30px] w-[45px]" />
               <div>
               <input type="email" placeholder="  Email" className="peer ... bg-transparent focus:outline-none focus:shadow-none"/>
               <p class="absolute bottom-[231px] left-[80px] invisible peer-invalid:visible text-pink-600 text-sm ">
