@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='flex flex-row justify-center items-center bg-cyan p-[10px] md:fixed h-[76px] top-0 w-screen flex-shrink-0 bg-white animate-fade-down animate-once animate-ease-in'>
       <div className='flex justify-center'>
-        <span className=' font-serif font-semibold text-[40px]'>SFlash</span>
+        <span className=' font-serif font-semibold text-[40px]'>SFlashs</span>
       </div>
       <div className='w-[937px]'></div>
       <div className='flex justify-center items-center'>
