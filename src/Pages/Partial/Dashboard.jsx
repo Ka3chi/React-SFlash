@@ -17,7 +17,7 @@ export const Dashboard = () => {
         <Header/>
       
       <div className="absolute inset-0 flex items-center justify-center">
-        <h1 className="text-8xl text-white font-thin">Hello World!</h1>
+        <h1 className="text-8xl text-white font-thin">Hello World!!</h1>
       </div>
     </ParallaxBanner>
         <div className='home bg-violet-500 h-[800px] flex justify-center items-center' >
