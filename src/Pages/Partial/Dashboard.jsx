@@ -5,7 +5,8 @@ import { IoFastFoodOutline } from "react-icons/io5";
 
 export const Dashboard = () => {
   return (
-    <div className="grid  grid-cols h-[1500px] w-screen overflow-x-hidden">
+    <div>
+    <div className="grid  grid-cols w-screen overflow-x-hidden">
       <Header />
       <div className='home bg-violet-500 h-[800px] flex flex-col justify-center' >
         <div className='flex flex-col'>
@@ -90,6 +91,7 @@ export const Dashboard = () => {
       <div className='grid grid-col '>
         <Footer />
       </div>
+    </div>
     </div>
   )
 }
